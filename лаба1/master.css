@@ -165,10 +165,11 @@ body{
 }
 
 .backgroundLine{
-
+    height: 500px;
     width: 1px;
     position: absolute;
     background-color: #C4C4C4;
+    margin: 50px 30px;
 }
 
 .newLife{
