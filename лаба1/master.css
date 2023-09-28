@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Tenor+Sans&display=swap');
 body{
     width: 100%;
     height: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
 .main_background{
     margin: 0 auto 0 auto;
@@ -11,6 +13,7 @@ body{
     flex-direction: column;
     justify-content: top;
     text-align: center;
+    z-index: 0;
 }
 
 .TopHead{
@@ -30,7 +33,7 @@ body{
     margin: auto;
     text-decoration: none;
     color: #323232;
-
+    font-family: 'Open Sans', sans-serif;
 }
 
 .top_image{
@@ -43,19 +46,22 @@ body{
 .head_big_image{
     width: 1440px;
     height: 601px;
-    background: url("./images/masterImages/majid-gheidarlou-LuI6euS7Dno-unsplash\ 1.svg") , linear-gradient(to top, black -15%, transparent 50%);
+    background: url("./images/masterImages/background1.svg") , linear-gradient(to top, black -15%, transparent 50%);
 }
 
 .center_header_block{
-    width: 818px;
-    height: inherit;
+    width: max-content;
+    height: max-content;
     margin: auto;
 }
 
 .string_2{
-    margin: 300px auto 0 auto ;
+    margin: 300px auto 0;
     color: white;
-    font-size: 40px;
+    font-size: 48px;
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 300;
+    width: max-content;
 }
 
 .center_header_button{
@@ -64,6 +70,7 @@ body{
     font-style: 20px #715B4B;
     margin-top: 100px;
     border: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .ourWorks{
@@ -81,6 +88,10 @@ body{
 .ourWorks_block{
     width: 260px;
     height: 300px;
+}
+
+.ourWorks_block p {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .ourWorks_String{
@@ -102,6 +113,8 @@ body{
     background-color: #A1B29F;
     color: white;
     margin: 50px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 
 .MK{
@@ -148,6 +161,14 @@ body{
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    z-index: 9999;
+}
+
+.backgroundLine{
+
+    width: 1px;
+    position: absolute;
+    background-color: #C4C4C4;
 }
 
 .newLife{
@@ -156,16 +177,17 @@ body{
     display: flex;
     text-align: center;
     justify-content: center;
+    margin: auto;
 }
 
 .newLifeBackground{
     width: 1440px;
     height: 508px;
-    background-image: url("./images/masterImages/mitchell-luo-3Zy6U5swEio-unsplash\ 1.svg");
+    background-image: url("./images/masterImages/background2.svg");
 }
 
 .newLifeBackground .string_2{
-    margin: 0;
+    margin: 0 auto;
     height: inherit;
     text-align: center;
     justify-content: center;
@@ -241,6 +263,7 @@ body{
     flex-direction: row;
     height: 460px;
     margin: 300px auto;
+    width: 1210px;
 }
 
 .redisign_image{
@@ -252,7 +275,6 @@ body{
 .redisign_leftside{
     width: 700px;
     height: 460px;
-    margin-left: 50px;
     text-align: left;
     
 }
@@ -271,6 +293,7 @@ body{
 .redisign_leftside p{
     text-align: left;
     margin-top: 160px;
+    width: 80%;
 }
 
 .redisign_button{

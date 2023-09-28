@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Tenor+Sans&display=swap');
 body{
     width: 100%;
     height: 100%;
@@ -30,7 +31,7 @@ body{
     margin: auto;
     text-decoration: none;
     color: #323232;
-
+    font-family: 'Open Sans', sans-serif;
 }
 
 .top_image{
@@ -43,7 +44,7 @@ body{
 .head_big_image{
     width: 1440px;
     height: 640px;
-    background: url("./images/IMG_6437\ 1.png") , linear-gradient(to top, black -15%, transparent 50%);
+    background: url("./images/indexImages/background.jpg") , linear-gradient(to top, black -15%, transparent 50%);
 }
 
 .center_header_block{
@@ -56,12 +57,15 @@ body{
     margin-top: 30%;
     color: white;
     margin-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .string_2{
     margin-top: 0;
     color: white;
     font-size: 40px;
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 300;
 }
 
 .center_header_button{
@@ -70,6 +74,7 @@ body{
     font-style: 20px #715B4B;
     margin-top: 100px;
     border: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .whyUs{
@@ -86,10 +91,11 @@ body{
     display: flex;
     flex-direction: column;
     text-align: left;
-    font-size: 50px;
+    font-size: 48px;
     justify-content: center;
     height: 72px;
     margin-bottom: 100px;
+    font-family: 'Tenor Sans', sans-serif;
 }
 
 .whyUs_infocards{
@@ -116,7 +122,7 @@ body{
 }
 
 .whyUs_infocard_top{
-    width: 200px;
+    width: 210px;
     height: 32px;
 }
 
@@ -130,12 +136,14 @@ body{
     font-size: 15px;
     text-align: left;
     margin-top: 5px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .whyUs_infocard_bottom_string{
     font-size: 12px;
     text-align: left;
     font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .portfolio{
@@ -198,6 +206,8 @@ body{
     margin: 80px 0 10px 20px;
     text-align: left;
     width: 300px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 .production_stages .line .block .big_string1{
@@ -267,11 +277,13 @@ body{
     flex-direction: column;
     gap: 10px;
     color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .footer-inner div a{
     color: white;
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .footer-inner__link{
