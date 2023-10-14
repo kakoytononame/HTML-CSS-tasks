@@ -9,7 +9,7 @@ body{
 .main_background{
     margin: 0 auto 0 auto;
     background-color: #F3EFEA;
-    width: 1440px;
+    width: max-content;
     height: max-content;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@ body{
 }
 
 .TopHead{
-    width: 1440px;
+    width: max-content;
     height: 200px;
     display: flex;
     flex-direction: row;
@@ -45,7 +45,7 @@ body{
 }
 
 .head_big_image{
-    width: 1440px;
+    width: max-content;
     height: max-content;
 }
 
@@ -227,4 +227,10 @@ body{
 
 .footer-inner__link a img{
     width: 52px;
+}
+
+@media (min-width: 414px) and (max-width: 600px){
+    .center_header_block{
+        width: 414px;
+    }
 }
