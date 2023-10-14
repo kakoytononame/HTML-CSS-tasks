@@ -16,6 +16,7 @@
     .callUs{
         width: max-content;
         height: max-content;
+        margin: auto;
     }
 
     .callUs__button{
@@ -31,5 +32,11 @@
         flex-direction: column;
         gap: 20px;
         width: max-content;
+    }
+
+    .big_string1{
+        font-size: 32px;
+        width: 247px;
+        margin: auto;
     }
 }

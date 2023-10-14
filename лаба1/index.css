@@ -344,11 +344,6 @@ body{
         width: max-content;
     }
 
-    .big_string1{
-        font-size: 32px;
-        width: 247px;
-    }
-
     .whyUs_infocards_line{
         flex-direction: column;
         margin: auto;
@@ -364,10 +359,6 @@ body{
     .portfolio{
         width: inherit;
         height: max-content;
-    }
-
-    .big_string1{
-        margin: auto;
     }
 
     .portfolio-slider-mini-images{
