@@ -85,9 +85,21 @@ body{
     margin: 200px 0 100px;
 }
 
-.ourWorks_block{
-    width: 260px;
-    height: 300px;
+.ourWorks td{
+    width: 250px;
+    height: max-content;
+    display: inline-block;
+    margin: auto 15px;
+}
+
+.ourWorks td img{
+    width: inherit;
+    height: inherit;
+}
+
+.ourWorks tr{
+    width: inherit;
+    justify-content: space-between;
 }
 
 .ourWorks_block p {
@@ -96,10 +108,8 @@ body{
 
 .ourWorks_String{
     width: 1210px;
-    height: 400px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    height: 800px;
+    display: block;
 }
 
 .ourWorks .string_2{
@@ -205,27 +215,36 @@ body{
 }
 
 .restavration .string_2{
-    margin: 200px 0 100px;
-}
-
-.restavration_block{
-    width: 260px;
-    height: max-content;
-    margin: auto 0 0 0;
+    margin: 300px 0 0 0;
+    color: #715B4B;
 }
 
 .restavration_String{
-    width: 1210px;
-    height: 400px;
+    width: 80%;
+    margin: 100px auto;
+    height: 600px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
 }
 
-.restavration .string_2{
-    color:  #715B4B;
-    text-align: left;
+.restavration_String tr{
+    height: 600px;
+}
+
+.restavration_String .string_2{
+    width: inherit;
+}
+
+.restavration_block{
+    width: 24%;
+    height: max-content;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-top: 50px;
+}
+
+.restavration_String p{
+    width: 50%;
+    margin: 0 auto;
 }
 
 .woodBusy{
@@ -348,4 +367,228 @@ body{
 
 .footer-inner__link a img{
     width: 52px;
+}
+
+@media only screen and (orientation: portrait) and (min-device-width: 375px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 3) { 
+
+    .head_big_image{
+        width: inherit;
+        background: url("./images/masterImages/iphone11pro/bigheader.png");
+        justify-content: center;
+        display: flex;
+    }
+
+    .center_header_block{
+        width: inherit;
+        margin: auto;
+    }
+
+    .string_2{
+        margin-top: 30px;
+        font-size: 32px;
+        text-align: left;
+        width: inherit;
+    }
+
+    .center_header_img{
+        width: 375px;
+        height: 264px;
+        margin: 100px auto 0 auto;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-image: url("./images/aboutUsImages/adaptive_11pro/big_header.svg");
+    }
+
+    .center_header_block .string_2{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    .production-information{
+        flex-direction: column;
+        width: inherit;
+    }
+
+    .production-information_block{
+        width: 80%;
+        text-align: left;
+        height: 100px;
+        margin: 20px auto 0;
+    }
+
+    .aboutFounder{
+        width: inherit;
+        flex-direction: column;
+        height: max-content;
+
+    }
+
+    .aboutFounder_image{
+        width: inherit;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .aboutFounder_rightside{
+        width: 80%;
+        height: max-content;
+        margin: 50px auto 0;
+    }
+
+    .filosofia{
+        width: 80%;
+    }
+
+    .filosofia .string_2{
+        width: 50%;
+    }
+
+    .sMIAboutUs{
+        width: 80%;
+    }
+
+    .sMIAboutUs_images{
+        width: inherit;
+    }
+
+    .sMIAboutUs_images img{
+        display: none;
+    }
+
+    #sMIAboutUs_images_1{
+        display: block;
+        margin: auto;
+        width: inherit;
+    }
+
+    .ourWorks{
+        width: 80%;
+    }
+
+    .ourWorks_String{
+        width: 100%;
+        gap: 10px;
+    }
+
+    .ourWorks_String td img{
+        width: 100%;
+    }
+
+    .ourWorks_String td {
+        width: 43%;
+        margin: 10px 8px;
+    }
+
+    .ourWorks_String td p{
+        width: inherit;
+        margin: auto;
+    }
+
+    .MK{
+        width: 80%;
+        margin: 50px auto;
+        height: max-content;
+    }
+
+    .MK_points{
+        margin: 100px auto;
+    }
+
+    .MK .string_2{
+        width: inherit;
+    }
+
+    .MK_points_block{
+        width: inherit;
+    }
+
+    .MK_points_block p{
+        width: 50%;
+        margin: auto;
+    }
+
+    .newLife{
+        width: inherit;
+    }
+
+    .newLifeBackground{
+        width: inherit;
+        text-align: center;
+        background: url("./images/masterImages/iphone11pro/woodbackground.png") no-repeat;
+    }  
+
+    .restavration{
+        width: 80%;
+        height: max-content;
+    }
+
+    .restavration .string_2{
+        width: 90%;
+        margin-top: 100px;
+    }
+
+    .restavration_String{
+        width: 100%;
+        height: max-content;
+    }
+    
+    .restavration_block{
+        width: 45%;
+    }
+
+    .restavration_block img{
+        width: 100%;
+    }
+
+    .woodBusy{
+        width: 80%;
+    }
+
+    .woodBusy .string_2{
+        width: 90%;
+        margin-top: 100px;
+    }
+
+    .woodBusy_block{
+        width: 100%;
+    }
+
+    .woodBusy_String{
+        width: 100%;
+        height: max-content;
+        flex-direction: column;
+    }
+
+    .woodBusy_block img{
+        width: inherit;
+        height: inherit;
+    }
+
+    .redisign{
+        width: 80%;
+        flex-direction: column;
+        margin: 0 auto;
+        height: max-content;
+    }
+
+    .redisign_leftside{
+        width: inherit;
+        height: max-content;
+        margin-bottom: 100px;
+    }
+
+    .redisign_leftside .string_2{
+        margin: 0;
+    }
+
+    .redisign_leftside p{
+        width: 100%;
+        height: max-content;
+    }
+
+    .redisign_image{
+        display: none;
+    }
+
 }

@@ -190,33 +190,41 @@ body{
 .production_stages{
     width: inherit;
     height: 267px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    display: table;
+    border: #000000 solid 1px;
 }
 
-.production_stages .line{
-    width: inherit;
+.production_stages tr{
+    width: max-content;
     height: 133px;
     display: flex;
     flex-direction: row;
+    margin: 0;
+    padding: 0;
 }
 
-.production_stages .line .block{
-    width: 325px;
+.production_stages td{
+    width: max-content;
     height: inherit;
-    border: 2px solid black;
+    border: #000000 solid 1px;
+    gap: 0;
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: row;
-    margin: auto;
 }
 
-.production_stages .line .block p{
+.production_stages td p{
     margin: 80px 0 10px 20px;
     text-align: left;
-    width: 300px;
+    width: 275px;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
 
-.production_stages .line .block .big_string1{
+.production_stages td .big_string1{
     margin: 10px 50px 200px 0;
     text-align: right;
     width: 20px;
@@ -385,21 +393,23 @@ body{
     }
 
     .production_stages{
-        margin-top: 100px;
-        width: inherit;
+        margin: 100px auto 0;
+        width: max-content;
         height: max-content;
     }
 
-    .production_stages .line{
+    .production_stages tr{
         flex-direction: column;
         height: max-content;
+        margin: auto;
+        width: max-content;
     }
 
-    .production_stages .line .block{
+    .production_stages td{
         height: 140px;
     }
 
-    .production_stages .line .block .big_string1{
+    .production_stages td .big_string1{
        margin: 5px 20px 0 0;
     }
 
