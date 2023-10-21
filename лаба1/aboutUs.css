@@ -68,6 +68,7 @@ body{
     width: 1160px;
     margin: 100px auto 0px;
     border: 0;
+    background: url("./images/aboutUsImages/masters.svg");
 }
 
 .big_string1{
@@ -105,6 +106,7 @@ body{
 .aboutFounder_image{
     width: 460px;
     height: 460px;
+    background: url("./images/aboutUsImages/founder.svg");
 }
 
 .aboutFounder_rightside{
@@ -229,8 +231,93 @@ body{
     width: 52px;
 }
 
-@media (min-width: 414px) and (max-width: 600px){
-    .center_header_block{
-        width: 414px;
+@media only screen and (orientation: portrait) and (min-device-width: 375px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 3) { 
+
+    .head_big_image{
+        width: inherit;
     }
+
+    .center_header_block{
+        width: inherit;
+    }
+
+    .string_2{
+        margin-top: 30px;
+        font-size: 32px;
+        text-align: left;
+        width: inherit;
+    }
+
+    .center_header_img{
+        width: 375px;
+        height: 264px;
+        margin: 100px auto 0 auto;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-image: url("./images/aboutUsImages/adaptive_11pro/big_header.svg");
+    }
+
+    .center_header_block .string_2{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    .production-information{
+        flex-direction: column;
+        width: inherit;
+    }
+
+    .production-information_block{
+        width: 80%;
+        text-align: left;
+        height: 100px;
+        margin: 20px auto 0;
+    }
+
+    .aboutFounder{
+        width: inherit;
+        flex-direction: column;
+        height: max-content;
+
+    }
+
+    .aboutFounder_image{
+        width: inherit;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .aboutFounder_rightside{
+        width: 80%;
+        height: max-content;
+        margin: 50px auto 0;
+    }
+
+    .filosofia{
+        width: 80%;
+    }
+
+    .filosofia .string_2{
+        width: 50%;
+    }
+
+    .sMIAboutUs{
+        width: 80%;
+    }
+
+    .sMIAboutUs_images{
+        width: inherit;
+    }
+
+    .sMIAboutUs_images img{
+        display: none;
+    }
+
+    #sMIAboutUs_images_1{
+        display: block;
+        margin: auto;
+        width: inherit;
+    }
+
 }
