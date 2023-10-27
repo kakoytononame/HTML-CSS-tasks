@@ -5,6 +5,7 @@
   <title>Реставрация мебели</title>
   <link rel="stylesheet" href="aboutUs.css" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./components/callUs/callUs.css" />
 </head>
 <body>
   <div class="main_background">
@@ -63,7 +64,7 @@
     </section>
     <section class="callUs">
         <h2 class="big_string1">Оставьте заявку и мы с вами свяжемся</h2>
-        <button class="callUs__button">Оставить заявку</button>
+        <button class="callUs__button" id="callUsButton">Оставить заявку</button>
     </section>
     <footer class="footer">
       <div class="footer-inner">
@@ -89,5 +90,20 @@
         </div>
     </div>
   </footer>
+  <div class="allScreen">
+    <button class="close">x</button>
+    <div class="window">
+      <div class="name_block">
+        <h2 class="name_text">Имя</h2>
+        <input class="name_field">
+      </div>
+      <div class="phone_block">
+        <h2 class="phone_text">Номер телефона</h2>
+        <input class="phone_field">
+      </div>
+      <button class="send">Связаться</button>
+    </div>
+  </div>
 </body>
+<script src="./js/script.js"></script>
 </html>
