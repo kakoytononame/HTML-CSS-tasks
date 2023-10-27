@@ -5,7 +5,7 @@
   <title>Реставрация мебели</title>
   <link rel="stylesheet" href="index.css" />
   <link rel="stylesheet" href="style.css" />
-  <script src="./js/functions.js"></script>
+  <link rel="stylesheet" href="./components/callUs/callUs.css" />
 </head>
 <body>
   <div class="main_background">
@@ -21,7 +21,7 @@
         <p class="string_1">Воплотим любую вашу задумку в реальность</p>
         <h1 class="string_2">Столярная мастерская</h1>
         <h1 class="string_2">NIKASON BRAND</h1>
-        <button class="center_header_button">Заказать мебель</button>
+        <button class="center_header_button" id="callUsButton">Заказать мебель</button>
       </div>
     </section>
     <section class="whyUs">
@@ -83,7 +83,7 @@
     </section>
     <section class="portfolio">
       <h2 class="big_string1">Портфолио</h2>
-        <div class="portfolio-slider">
+        <div class="portfolio-slider" id="portfolio_slider">
           <div class="portfolio-slider_bigimage">
             <img src="./images/indexImages/chairandtable.jpg" alt="foto">
           </div>
@@ -157,7 +157,7 @@
     </section>
     <section class="callUs">
       <h2 class="big_string1">Оставьте заявку и мы с вами свяжемся</h2>
-      <button class="callUs__button">Оставить заявку</button>
+      <button class="callUs__button" id="callUsButton">Оставить заявку</button>
     </section>
   </div>
   <footer class="footer">
@@ -184,5 +184,22 @@
         </div>
     </div>
   </footer>
+    <div class="allScreen">
+      <button class="close">x</button>
+      <div class="window">
+        <div class="name_block">
+          <h2 class="name_text">Имя</h2>
+          <input class="name_field">
+        </div>
+        <div class="phone_block">
+          <h2 class="phone_text">Номер телефона</h2>
+          <input class="phone_field">
+        </div>
+        <button class="send">Связаться</button>
+      </div>
+    </div>
+  </html>
 </body>
+<script src="./js/functions.js"></script>
+<script src="./js/script.js"></script>
 </html>

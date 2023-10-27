@@ -5,6 +5,7 @@
   <title>Реставрация мебели</title>
   <link rel="stylesheet" href="prototipe.css" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./components/callUs/callUs.css" />
 </head>
 <body>
     <div class="main_background">
@@ -114,7 +115,7 @@
                     <p>Что делать, если память о предках хочется сохранить, но к<br> вашему интерьеру старая и испорченная мебель не<br> подходит? <br>
                         Правильно, отреставрировать его и наслаждаться не только<br> обновлённым видом мебели, но и с теплотой помнить, что<br> эта мебель была сделана талантливыми предками.
                         </p>
-                    <button>Купить мастер-класс</button>
+                    <button id="callUsButton">Купить мастер-класс</button>
                 </div>
             </div>
         </section>
@@ -152,5 +153,20 @@
             </div>
         </footer>
     </div>
-</body>
+    <div class="allScreen">
+        <button class="close">x</button>
+        <div class="window">
+          <div class="name_block">
+            <h2 class="name_text">Имя</h2>
+            <input class="name_field">
+          </div>
+          <div class="phone_block">
+            <h2 class="phone_text">Номер телефона</h2>
+            <input class="phone_field">
+          </div>
+          <button class="send">Связаться</button>
+        </div>
+      </div>
+    </body>
+    <script src="./js/script.js"></script>
 </html>

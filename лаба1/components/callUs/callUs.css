@@ -1,0 +1,58 @@
+.window{
+    
+    height: 500px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: azure;
+    margin: auto;
+}
+
+.allScreen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s all;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.allScreen.is-open { 
+    pointer-events: all; 
+    opacity: 1;
+}
+
+.close {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 30px;
+	height: 30px;
+    background-color: #fff;
+    border: solid 1px #222;
+    border-radius: 3px;
+}
+
+.send{
+    width: 50%;
+    height: 50px;
+    margin: auto;
+}
+
+.phone_field{
+    width: 50%;
+    height: 40px;
+}
+
+.name_field{
+    width: 50%;
+    height: 40px;
+}
