@@ -1,0 +1,178 @@
+.main_background{
+    margin: 0 auto 0 auto;
+    background-color: #F3EFEA;
+    width: 1440px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    text-align: center;
+}
+
+.TopHead{
+    width: 1440px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.top_text{
+    height: 21px;
+    width: 288px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-decoration: none;
+    color: #323232;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top_image{
+    width: 86px;
+    height: 86px;
+    margin: auto;
+    padding: 0 101px;
+}
+
+.AboutEvent{
+    width: 80%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 200px auto auto  auto;
+}
+
+.AboutEventHeadText{
+    font-size: 40px;
+}
+
+.SpeakersMainBlock{
+    width: 80%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.SpeakersHeaderText{
+    font-size: 40px;
+}
+
+.SpeakerBlock{
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    height: max-content;
+}
+
+.SpeakerBlock_leftside img{
+    width: 500px;
+    height: 500px;
+}
+
+.SpeakerBlock_leftside p{
+    font-size: 30px;
+}
+
+.gallery_headerText{
+    margin: 50px auto 50px auto;
+    font-size: 40px;
+}
+
+.gallery_string{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+}
+
+.gallery_images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px auto 100px auto;
+    width: 100%;
+}
+
+.gallery_images img{
+    width: 300px;
+    height: 300px;
+}
+
+.SpeakerBlock_rightside{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto auto auto 100px;
+}
+
+.gallery_leftbutton{
+    font-size: 24px;
+    background-color: white;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
+
+.gallery_rightbutton{
+    font-size: 24px;
+    background-color: white;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
+
+.footer{
+    margin: 0 auto;
+    width: 1440px;
+    height: 380px;
+    background-color: #715B4B;
+}
+
+.footer-inner{
+    width: 1200px;
+    margin:auto;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-inner div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-inner div a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-inner__link{
+    width: 114px;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-inner__link a{
+    width: 52px;
+}
+
+.footer-inner__link a img{
+    width: 52px;
+}
