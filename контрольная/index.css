@@ -113,24 +113,6 @@
     margin: auto auto auto 100px;
 }
 
-.gallery_leftbutton{
-    font-size: 24px;
-    background-color: white;
-    border-radius: 100%;
-    width: 30px;
-    height: 30px;
-    margin: auto;
-}
-
-.gallery_rightbutton{
-    font-size: 24px;
-    background-color: white;
-    border-radius: 100%;
-    width: 30px;
-    height: 30px;
-    margin: auto;
-}
-
 .footer{
     margin: 0 auto;
     width: 1440px;
