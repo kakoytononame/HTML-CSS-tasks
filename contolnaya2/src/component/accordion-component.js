@@ -55,7 +55,10 @@ function InitPage(){
     var resultInnerHtml = '';
 
     initData.forEach(button => {
-        resultInnerHtml += `<div class= "obertka"><button class="accordion-button">${button.name}</button>` + new AccordionContentComponent(button.text).getTemplate()+ "</div>";
+        resultInnerHtml += `<div class= "obertka">
+                                <button class="accordion-button">${button.name}</button>`
+                                + new AccordionContentComponent(button.text).getTemplate()+ 
+                            "</div>";
     });
 
     return resultInnerHtml;
